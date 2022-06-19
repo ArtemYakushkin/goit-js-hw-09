@@ -16,3 +16,27 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.select {
+  text-align: center;
+}
+
+.timer {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.field + .field {
+  margin-left: 40px;
+}
+
+.value {
+  font-size: 40px;
+}
